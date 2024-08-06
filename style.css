@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9; /* verde claro */
+}
+
+header {
+    background-color: #388e3c; /* verde escuro */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+section.contato {
+    background-color: #c8e6c9; /* verde claro */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section.contato label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+section.contato input[type="text"],
+section.contato input[type="email"],
+section.contato textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+section.contato textarea {
+    resize: vertical;
+}
+
+section.contato input[type="submit"] {
+    background-color: #388e3c; /* verde escuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section.contato input[type="submit"]:hover {
+    background-color: #4caf50; /* verde mais claro ao hover */
+}
